@@ -7,4 +7,9 @@ export const CardContainer = styled.div`
     margin: auto;
     margin-top: 15px;
     border-radius: 5px;
+    color: #3778AD;
+    padding: 1.5rem;
+    h1{
+        font-size: 1.125rem;
+    }
 `
