@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardContainer = styled.div`
+export const SystemCardContainer = styled.div`
   background-color: #f5f5f5;
   width: 900px;
   margin: auto;
@@ -12,14 +12,16 @@ export const CardContainer = styled.div`
     font-size: 1.125rem;
   }
   div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0.5rem;
   }
   label {
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 0.5rem;
     input {
       margin-right: 0.5rem;
-      margin-left: 2rem;
+      /* margin-left: 2rem; */
     }
     &:first-child {
       input {
@@ -31,8 +33,6 @@ export const CardContainer = styled.div`
     div{
       display: flex;
       flex-direction: column;
-    
-      input{margin-left:0px}
     }
   }
 `;
