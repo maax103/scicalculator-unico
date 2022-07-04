@@ -11,7 +11,6 @@ import { Tasklist } from "./components/Takslist";
 import { Result } from "./components/Result";
 import { Footer } from "./components/Footer";
 import { defaulttasklist } from "./const/defaulttasklist";
-import { MainContainer } from "./components/gerenics/mainContainer";
 
 function App() {
   const [clients, setClients] = useState({
@@ -20,13 +19,13 @@ function App() {
     "3": true,
   });
   const [systems, setSystems] = useState({
-    practice: false,
+    practice: true,
     suprema: false,
     sucessor: false,
     controller: false,
     web: false,
   });
-  const [activeMenu, setActiveMenu] = useState("");
+  const [activeMenu, setActiveMenu] = useState("practice");
   const [activeItems, setActiveItems] = useState(defaulttasklist);
 
   return (

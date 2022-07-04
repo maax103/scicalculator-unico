@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { SystemCardContainer } from "./style.js";
 
 export const SystemCard = () => {
-  const context = React.useContext(UserContext);
+  const context = useContext(UserContext);
 
   function handleSystem(system) {
     context.setSystems({

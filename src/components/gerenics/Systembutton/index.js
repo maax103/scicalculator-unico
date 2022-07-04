@@ -17,7 +17,7 @@ export const SystemButton = ({name}) => {
     return(
         <SystemButtonContainer onClick={()=>{
             console.log(name);
-            name == context.activeMenu ? context.setActiveMenu("") : context.setActiveMenu(name);
+            name === context.activeMenu ? context.setActiveMenu("") : context.setActiveMenu(name);
         }} bgColor={bgColor[name]}>
             <img src={img} alt={`${name} logo`}></img>
         </SystemButtonContainer>

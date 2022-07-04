@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { CardContainer } from "./style";
 
 export const ClientCard = () => {
-  const context = React.useContext(UserContext);
+  const context = useContext(UserContext);
 
   function handleClient(client) {
     let clients = {

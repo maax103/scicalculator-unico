@@ -24,7 +24,8 @@ export const ResultContainer = styled.div`
       display: inline-block;
       &:last-child {
         float: right;
-        background-color: #d9d9d9;
+        font-weight: bold;
+        /* background-color: #d9d9d9; */
         border-radius: 50%;
         height: 2.5rem;
         width: 2.5rem;
