@@ -20,12 +20,12 @@ function App() {
   });
   const [systems, setSystems] = useState({
     practice: true,
-    suprema: false,
-    sucessor: false,
+    suprema: true,
+    sucessor: true,
     controller: false,
     web: false,
   });
-  const [activeMenu, setActiveMenu] = useState("practice");
+  const [activeMenu, setActiveMenu] = useState("");
   const [activeItems, setActiveItems] = useState(defaulttasklist);
 
   return (
