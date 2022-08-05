@@ -56,7 +56,7 @@ export const Result = ({ activeItems }) => {
   return (
     <ResultContainer>
       {Object.values(context.systems).every((value) => value === false) ? (
-        <h3 className="empty">Selecione um sistema para iniciar o cálculo</h3>
+        <h3 className="empty">Selecione um módulo para iniciar o cálculo</h3>
       ) : (
         <>
           <h3>Horas de treinamento</h3>

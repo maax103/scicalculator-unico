@@ -1,5 +1,5 @@
 export const tasklist = {
-    "practice": {
+    "folha": {
         "Cadastros e correções": 2,
         "Mensalista": 1,
         "Prolaborista": 0.5,
@@ -23,7 +23,7 @@ export const tasklist = {
         "Exportação para Sucessor": 0.25,
         "Utilitários e opções de segurança": 0.25,
     },
-    "suprema": {
+    "fiscal": {
         "Simples Nacional " : 2,
         "Lucro Presumido" : 2.5,
         "Lucro Real" : 2.5,
@@ -32,17 +32,17 @@ export const tasklist = {
         "DIME - Crédito Presumido" : 1,
         "DRCST - Comp. e Restituição de ICMS ST" : 1,
     },
-    "sucessor": {
+    "contábil": {
         "Treinamento Básico": 2,
         "Lalur SCI Visual Pronto ": 1,
         "Pâtrimonio SCI  Visual Ativa": 1,
 
     },
-    "controller": {
+    "financeiro": {
         "Treinamento completo" : 2,
         "Tira Dúvidas" : 1,
     },
-    "web": {
+    "tarefas": {
         "Push SCI 2.0" : 1,
         "Instalação Push" : 1,
         "ISS Legal SCI" : 1,
@@ -57,5 +57,53 @@ export const tasklist = {
         "SCI Print PDF" : 0.5,
         "Agente SCI" : 0.5,
         "SCI App 4.0" : 0.5,
-    }
+    },
+    "orcamentos": {
+        "Push SCI 2.0" : 1,
+        "Instalação Push" : 1,
+        "ISS Legal SCI" : 1,
+        "RH NET Social" : 2,
+        "Integra NET" : 1,
+        "SBS - Smart Bank Statement" : 1.5,
+        "SCI Report - Serviços 24H" : 2,
+        "SCI Report - Tarefas" : 1,
+        "SCI Report - Atendimento" : 0.5,
+        "SCI Report - CND" : 0.5,
+        "Dasboard SCI" : 1,
+        "SCI Print PDF" : 0.5,
+        "Agente SCI" : 0.5,
+        "SCI App 4.0" : 0.5,
+    },
+    "protocolos": {
+        "Push SCI 2.0" : 1,
+        "Instalação Push" : 1,
+        "ISS Legal SCI" : 1,
+        "RH NET Social" : 2,
+        "Integra NET" : 1,
+        "SBS - Smart Bank Statement" : 1.5,
+        "SCI Report - Serviços 24H" : 2,
+        "SCI Report - Tarefas" : 1,
+        "SCI Report - Atendimento" : 0.5,
+        "SCI Report - CND" : 0.5,
+        "Dasboard SCI" : 1,
+        "SCI Print PDF" : 0.5,
+        "Agente SCI" : 0.5,
+        "SCI App 4.0" : 0.5,
+    },
+    "notificações": {
+        "Push SCI 2.0" : 1,
+        "Instalação Push" : 1,
+        "ISS Legal SCI" : 1,
+        "RH NET Social" : 2,
+        "Integra NET" : 1,
+        "SBS - Smart Bank Statement" : 1.5,
+        "SCI Report - Serviços 24H" : 2,
+        "SCI Report - Tarefas" : 1,
+        "SCI Report - Atendimento" : 0.5,
+        "SCI Report - CND" : 0.5,
+        "Dasboard SCI" : 1,
+        "SCI Print PDF" : 0.5,
+        "Agente SCI" : 0.5,
+        "SCI App 4.0" : 0.5,
+    },
 }

@@ -12,65 +12,31 @@ export const SystemCard = () => {
     });
   }
 
+  function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
+  function systemLabel(name, index){
+    return (
+      <label key={index}>
+        <input
+            type="checkbox"
+            onChange={() => {
+              handleSystem(name);
+            }}
+            value={context.systems[name]}
+            checked={context.systems[name]}
+          ></input>
+          {capitalizeFirstLetter(name)}
+      </label>
+    )
+  }
+
   return (
     <SystemCardContainer>
       <h1>Selecione o treinamento dos módulos</h1>
       <div>
-        <label>
-          <input
-            type="checkbox"
-            onChange={() => {
-              handleSystem("practice");
-            }}
-            value={context.systems["practice"]}
-            checked={context.systems["practice"]}
-          ></input>
-          Practice
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            onChange={() => {
-              handleSystem("suprema");
-            }}
-            value={context.systems["suprema"]}
-            checked={context.systems["suprema"]}
-          ></input>
-          Suprema
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            onChange={() => {
-              handleSystem("sucessor");
-            }}
-            value={context.systems["sucessor"]}
-            checked={context.systems["sucessor"]}
-          ></input>
-          Sucessor
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            onChange={() => {
-              handleSystem("controller");
-            }}
-            value={context.systems["controller"]}
-            checked={context.systems["controller"]}
-          ></input>
-          Controller
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            onChange={() => {
-              handleSystem("web");
-            }}
-            value={context.systems["web"]}
-            checked={context.systems["web"]}
-          ></input>
-          Tecnologias WEB
-        </label>
+        {Object.keys(context.systems).map((system, index) => systemLabel(system, index))}
       </div>
     </SystemCardContainer>
   );

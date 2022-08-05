@@ -5,13 +5,16 @@ import { SystemButtonContainer } from "./style";
 export const SystemButton = ({name}) => {
 
     const context = useContext(UserContext);
-    const img = require('../../../assets/visual_' + name + ".png")
+    const img = require('../../../assets/unico_' + name + ".png")
     const bgColor = {
-        "practice": "#6EC9F4",
-        "suprema": "#368FD8",
-        "sucessor": "#0E69B2",
-        "controller": "#74AE74",
-        "web": "#B547FF"
+        "folha": "#80B6C9",
+        "fiscal": "#80B6C9",
+        "contábil": "#80B6C9",
+        "financeiro": "#80B6C9",
+        "tarefas": "#80B6C9",
+        "orcamentos": "#80B6C9",
+        "protocolos": "#80B6C9",
+        "notificações": "#80B6C9",
     }
 
     return(

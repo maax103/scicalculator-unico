@@ -19,11 +19,14 @@ function App() {
     "3": true,
   });
   const [systems, setSystems] = useState({
-    practice: true,
-    suprema: true,
-    sucessor: true,
-    controller: false,
-    web: false,
+    folha: true,
+    fiscal: true,
+    contábil: true,
+    financeiro: true,
+    tarefas: true,
+    orcamentos: true,
+    protocolos: true,
+    notificações: true,
   });
   const [activeMenu, setActiveMenu] = useState("");
   const [activeItems, setActiveItems] = useState(defaulttasklist);

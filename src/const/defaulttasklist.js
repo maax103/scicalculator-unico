@@ -1,5 +1,5 @@
 export const defaulttasklist = {
-    "practice": {
+    "folha": {
         "Cadastros e correções": true,
         "Mensalista": true,
         "Prolaborista": true,
@@ -23,7 +23,7 @@ export const defaulttasklist = {
         "Exportação para Sucessor": true,
         "Utilitários e opções de segurança": true,
     },
-    "suprema": {
+    "fiscal": {
         "Simples Nacional " : true,
         "Lucro Presumido" : false,
         "Lucro Real" : false,
@@ -32,17 +32,17 @@ export const defaulttasklist = {
         "DIME - Crédito Presumido" : false,
         "DRCST - Comp. e Restituição de ICMS ST" : false,
     },
-    "sucessor": {
+    "contábil": {
         "Treinamento Básico": true,
         "Lalur SCI Visual Pronto ": false,
         "Pâtrimonio SCI  Visual Ativa": false,
 
     },
-    "controller": {
+    "financeiro": {
         "Treinamento completo" : false,
         "Tira Dúvidas" : false,
     },
-    "web": {
+    "tarefas": {
         "Push SCI 2.0" : false,
         "Instalação Push" : false,
         "ISS Legal SCI" : false,
@@ -57,5 +57,53 @@ export const defaulttasklist = {
         "SCI Print PDF" : false,
         "Agente SCI" : false,
         "SCI App 4.0" : false,
-    }
+    },
+    "orcamentos": {
+        "Push SCI 2.0" : false,
+        "Instalação Push" : false,
+        "ISS Legal SCI" : false,
+        "RH NET Social" : false,
+        "Integra NET" : false,
+        "SBS - Smart Bank Statement" : false,
+        "SCI Report - Serviços 24H" : false,
+        "SCI Report - Tarefas" : false,
+        "SCI Report - Atendimento" : false,
+        "SCI Report - CND" : false,
+        "Dasboard SCI" : false,
+        "SCI Print PDF" : false,
+        "Agente SCI" : false,
+        "SCI App 4.0" : false,
+    },
+    "protocolos": {
+        "Push SCI 2.0" : false,
+        "Instalação Push" : false,
+        "ISS Legal SCI" : false,
+        "RH NET Social" : false,
+        "Integra NET" : false,
+        "SBS - Smart Bank Statement" : false,
+        "SCI Report - Serviços 24H" : false,
+        "SCI Report - Tarefas" : false,
+        "SCI Report - Atendimento" : false,
+        "SCI Report - CND" : false,
+        "Dasboard SCI" : false,
+        "SCI Print PDF" : false,
+        "Agente SCI" : false,
+        "SCI App 4.0" : false,
+    },
+    "notificações": {
+        "Push SCI 2.0" : false,
+        "Instalação Push" : false,
+        "ISS Legal SCI" : false,
+        "RH NET Social" : false,
+        "Integra NET" : false,
+        "SBS - Smart Bank Statement" : false,
+        "SCI Report - Serviços 24H" : false,
+        "SCI Report - Tarefas" : false,
+        "SCI Report - Atendimento" : false,
+        "SCI Report - CND" : false,
+        "Dasboard SCI" : false,
+        "SCI Print PDF" : false,
+        "Agente SCI" : false,
+        "SCI App 4.0" : false,
+    },
 }
