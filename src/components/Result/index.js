@@ -49,10 +49,6 @@ export const Result = ({ activeItems }) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
 
-  // console.log(systems[0])
-  // console.log(activeItems);
-  // console.log(total);
-
   return (
     <ResultContainer>
       {Object.values(context.systems).every((value) => value === false) ? (

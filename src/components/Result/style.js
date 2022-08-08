@@ -2,22 +2,22 @@ import styled from "styled-components";
 
 export const ResultContainer = styled.div`
   /* height: calc(600px - 2rem); */
-  padding: 3.25rem 0 3.25rem 0;
+  padding: 2rem 0 2rem 0;
   color: #3778ad;
   ul {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     list-style: none;
     display: flex;
     flex-direction: column;
-    min-height: 350px;
+    min-height: calc(400px + 2rem);
   }
   h3 {
     font-size: 1.4rem;
     font-weight: bold;
   }
   li {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     p {
       font-size: 1.4rem;
       padding: 0.5rem;

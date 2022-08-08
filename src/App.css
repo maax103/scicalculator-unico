@@ -29,22 +29,17 @@ body{
   border-radius: 5px;
   height: 100%;
   float: left;
-  /* margin-left: 0rem; */
   width: 0px;
   overflow: hidden;
-  /* padding-top: 1rem; */
-  /* padding: 1rem; */
   transition: width 0.7s, padding 0.7s, margin 0.7s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .active{
-  /* padding: 1rem; */
   margin-left: 1rem;
   margin-right: 1rem;
   width: 400px !important;
 }
 #results{
-  /* position: relative; */
   background-color: #F5F5F5;
   border-radius: 5px;
   height: 100%;
@@ -58,6 +53,4 @@ body{
   display: flex;
   justify-content: center;
   margin: 1rem;
-  /* align-items: center; */
-  /* flex-direction: column; */
 }

@@ -13,7 +13,13 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
     img{
-        height: 45px;
+        height: 140px;
+        /* display: inline-block; */
     }
 `

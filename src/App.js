@@ -23,12 +23,12 @@ function App() {
     fiscal: true,
     contábil: true,
     financeiro: true,
-    tarefas: true,
-    orcamentos: true,
-    protocolos: true,
-    notificações: true,
+    tarefas: false,
+    orcamentos: false,
+    protocolos: false,
+    notificações: false,
   });
-  const [activeMenu, setActiveMenu] = useState("");
+  const [activeMenu, setActiveMenu] = useState("financeiro");
   const [activeItems, setActiveItems] = useState(defaulttasklist);
 
   return (

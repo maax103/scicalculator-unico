@@ -1,14 +1,17 @@
 import React from 'react'
 import { HeaderContainer } from './style'
 import scilogo from '../../assets/logo.png'
+import unicologo from '../../assets/unicologo.png'
 
 export const Header = () => {
   return (
     <HeaderContainer>
-        <img src={scilogo} alt="sci logo"></img>
-        <div>
-            Calculadora de tempo de treinamento
-        </div>
+      <div>
+        <img src={unicologo} alt="logo do único" />
+      </div>
+      <div>
+        Calculadora de tempo de treinamento
+      </div>
     </HeaderContainer>
   )
 }

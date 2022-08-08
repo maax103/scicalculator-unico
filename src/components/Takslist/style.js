@@ -28,7 +28,7 @@ export const TaksklistContainer = styled.div`
     flex-direction: column;
   }
   background-color: #f5f5f5;
-  min-height: calc(652px - 2rem);
+  min-height: calc(662px - 2rem);
   border-radius: 5px;
   width: 100%;
   padding-left: 1rem;
