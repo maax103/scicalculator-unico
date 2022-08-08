@@ -1,15 +1,16 @@
 {
-  "main.css": "/scicalculator-unico/static/css/main.bdb1f8bc.chunk.css",
-  "main.js": "/scicalculator-unico/static/js/main.ffa74dab.chunk.js",
-  "main.js.map": "/scicalculator-unico/static/js/main.ffa74dab.chunk.js.map",
-  "static/js/1.18bbc14c.chunk.js": "/scicalculator-unico/static/js/1.18bbc14c.chunk.js",
-  "static/js/1.18bbc14c.chunk.js.map": "/scicalculator-unico/static/js/1.18bbc14c.chunk.js.map",
+  "main.css": "/scicalculator-unico/static/css/main.0a8ddee6.chunk.css",
+  "main.js": "/scicalculator-unico/static/js/main.0bd32d23.chunk.js",
+  "main.js.map": "/scicalculator-unico/static/js/main.0bd32d23.chunk.js.map",
+  "static/js/1.7ddb0cd6.chunk.js": "/scicalculator-unico/static/js/1.7ddb0cd6.chunk.js",
+  "static/js/1.7ddb0cd6.chunk.js.map": "/scicalculator-unico/static/js/1.7ddb0cd6.chunk.js.map",
   "runtime~main.js": "/scicalculator-unico/static/js/runtime~main.98baa95a.js",
   "runtime~main.js.map": "/scicalculator-unico/static/js/runtime~main.98baa95a.js.map",
   "static/media/logo.png": "/scicalculator-unico/static/media/logo.c47a5a03.png",
+  "static/media/unicologo.png": "/scicalculator-unico/static/media/unicologo.ecb2617a.png",
   "static/media/refresh_icon.svg": "/scicalculator-unico/static/media/refresh_icon.ea8b2c81.svg",
-  "static/css/main.bdb1f8bc.chunk.css.map": "/scicalculator-unico/static/css/main.bdb1f8bc.chunk.css.map",
+  "static/css/main.0a8ddee6.chunk.css.map": "/scicalculator-unico/static/css/main.0a8ddee6.chunk.css.map",
   "index.html": "/scicalculator-unico/index.html",
-  "precache-manifest.a1cc686478193617b55308927918f555.js": "/scicalculator-unico/precache-manifest.a1cc686478193617b55308927918f555.js",
+  "precache-manifest.e2208dd8b62f55d6b834019e0db00aab.js": "/scicalculator-unico/precache-manifest.e2208dd8b62f55d6b834019e0db00aab.js",
   "service-worker.js": "/scicalculator-unico/service-worker.js"
 }
