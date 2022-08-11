@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { UserContext } from "../../../context/context";
 import { SystemButtonContainer } from "./style";
 
-export const SystemButton = ({name}) => {
+export const SystemButton = ({ name }) => {
 
     const context = useContext(UserContext);
     const img = require('../../../assets/unico_' + name + ".png")
@@ -17,12 +17,13 @@ export const SystemButton = ({name}) => {
         "notificações": "#80B6C9",
     }
 
-    return(
-        <SystemButtonContainer onClick={()=>{
-            console.log(name);
+    return (
+        <SystemButtonContainer onClick={() => {
             name === context.activeMenu ? context.setActiveMenu("") : context.setActiveMenu(name);
         }} bgColor={bgColor[name]}>
-            <img src={img} alt={`${name} logo`}></img>
+            <div className={name === context.activeMenu ? "selectedMenu" : "unselectedMenu"}>
+                <img src={img} alt={`${name} logo`}></img>
+            </div>
         </SystemButtonContainer>
     )
 }

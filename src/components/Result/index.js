@@ -59,7 +59,7 @@ export const Result = ({ activeItems }) => {
           <ul>
             {Object.keys(context.systems).map((system) => {
               return context.systems[system] ? (
-                <li>
+                <li key={system}>
                   <p>{capitalizeFirstLetter(system)}</p>
                   <p>{total[system]}</p>
                 </li>
@@ -72,14 +72,6 @@ export const Result = ({ activeItems }) => {
               <p>{clientFactor}</p>
             </li>
           </ul>
-          {/* <li>
-          <p>Practice</p>
-          <p>{total["practice"]}</p>
-          </li>
-          <li>
-          <p>Sucessor</p>
-          <p>1</p>
-        </li> */}
           <div>
             <p>TOTAL</p>
             <p>
