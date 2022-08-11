@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0bd32d237ab4c98d288d",
+    "revision": "95398010551cc682ab56",
     "url": "/scicalculator-unico/static/css/main.0a8ddee6.chunk.css"
   },
   {
-    "revision": "0bd32d237ab4c98d288d",
-    "url": "/scicalculator-unico/static/js/main.0bd32d23.chunk.js"
+    "revision": "95398010551cc682ab56",
+    "url": "/scicalculator-unico/static/js/main.95398010.chunk.js"
   },
   {
     "revision": "7ddb0cd6be5547744b0e",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/scicalculator-unico/static/media/refresh_icon.ea8b2c81.svg"
   },
   {
-    "revision": "a0c15bf6fa3fc3555dbe4b7e83b44dc5",
+    "revision": "d4ba52ec83f0d96e245389a3ec5e14d5",
     "url": "/scicalculator-unico/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
   "main.css": "/scicalculator-unico/static/css/main.0a8ddee6.chunk.css",
-  "main.js": "/scicalculator-unico/static/js/main.0bd32d23.chunk.js",
-  "main.js.map": "/scicalculator-unico/static/js/main.0bd32d23.chunk.js.map",
+  "main.js": "/scicalculator-unico/static/js/main.95398010.chunk.js",
+  "main.js.map": "/scicalculator-unico/static/js/main.95398010.chunk.js.map",
   "static/js/1.7ddb0cd6.chunk.js": "/scicalculator-unico/static/js/1.7ddb0cd6.chunk.js",
   "static/js/1.7ddb0cd6.chunk.js.map": "/scicalculator-unico/static/js/1.7ddb0cd6.chunk.js.map",
   "runtime~main.js": "/scicalculator-unico/static/js/runtime~main.98baa95a.js",
@@ -11,6 +11,6 @@
   "static/media/refresh_icon.svg": "/scicalculator-unico/static/media/refresh_icon.ea8b2c81.svg",
   "static/css/main.0a8ddee6.chunk.css.map": "/scicalculator-unico/static/css/main.0a8ddee6.chunk.css.map",
   "index.html": "/scicalculator-unico/index.html",
-  "precache-manifest.e2208dd8b62f55d6b834019e0db00aab.js": "/scicalculator-unico/precache-manifest.e2208dd8b62f55d6b834019e0db00aab.js",
+  "precache-manifest.3221b9b92430abe34a928e8ea09199c1.js": "/scicalculator-unico/precache-manifest.3221b9b92430abe34a928e8ea09199c1.js",
   "service-worker.js": "/scicalculator-unico/service-worker.js"
 }
